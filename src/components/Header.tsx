@@ -1,5 +1,4 @@
 import { IoMenu } from 'react-icons/io5';
-
 import NavLinks from './NavLinks';
 import CvButton from './CvButton';
 import ThemeIcons from './ThemeIcons';

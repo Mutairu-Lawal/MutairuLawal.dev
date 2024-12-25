@@ -5,6 +5,7 @@ import ThemeIcons from './ThemeIcons';
 import Logo from './Logo';
 import MobileNavBar from './MobileNavBar';
 import { useState } from 'react';
+import HamburgerMenu from './HamburgerMenu';
 
 export default function Header() {
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
@@ -18,9 +19,9 @@ export default function Header() {
           <ThemeIcons />
           <CvButton />
         </div>
-        <div className="hover:cursor-pointer p-1 md:hidden">
-          <IoMenu size={24} onClick={() => setShowSidebar(true)} />
-        </div>
+        <HamburgerMenu toogleSidebar={setShowSidebar}>
+          <IoMenu size={24} />
+        </HamburgerMenu>
       </nav>
 
       {/* mobile navbar */}

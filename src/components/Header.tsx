@@ -4,8 +4,10 @@ import CvButton from './CvButton';
 import ThemeIcons from './ThemeIcons';
 import Logo from './Logo';
 import MobileNavBar from './MobileNavBar';
+import { useState } from 'react';
 
 export default function Header() {
+  const [showSidebar, setShowSidebar] = useState<boolean>(false);
   return (
     <>
       <nav className="flex justify-between p-4 items-center border-b lg:px-[70px] bg-[rgba(255,255,255,0.5)] backdrop-blur-[10px]">
@@ -16,12 +18,13 @@ export default function Header() {
           <ThemeIcons />
           <CvButton />
         </div>
-        <div className="icons hover:cursor-pointer p-1 md:hidden">
-          <IoMenu size={24} />
+        <div className="hover:cursor-pointer p-1 md:hidden">
+          <IoMenu size={24} onClick={() => setShowSidebar(true)} />
         </div>
       </nav>
-      {/* mobile nav */}
-      <MobileNavBar />
+
+      {/* mobile navbar */}
+      {showSidebar && <MobileNavBar toogleSidebar={setShowSidebar} />}
     </>
   );
 }

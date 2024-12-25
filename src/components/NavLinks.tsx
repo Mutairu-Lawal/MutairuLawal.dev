@@ -1,6 +1,6 @@
 export default function NavLinks() {
   return (
-    <ul className="text-gray-600 font-Inter text-base font-medium lg:flex lg:gap-10 capitalize lg:border-r-[1px] lg:px-8 grid gap-4">
+    <ul className="text-gray-600 text-base font-medium lg:flex lg:gap-10 capitalize lg:border-r-[1px] lg:px-8 grid gap-4">
       <a href="" className="hover:text-gray-900">
         <li>Home</li>
       </a>

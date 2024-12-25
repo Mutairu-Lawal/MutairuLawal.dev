@@ -11,15 +11,15 @@ export default function MobileNavBar({
   toogleSidebar: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   return (
-    <div className="mobile-navbar absolute w-[calc(100%-20%)] sm:w-1/2 h-screen top-0 right-0 lg:hidden bg-red-500">
+    <div className="mobile-navbar bg-gray-50 border-l absolute w-[calc(100%-20%)] sm:w-1/2 h-screen top-0 right-0 lg:hidden dark:bg-gray-950">
       <div className="">
-        <div className=" border-b flex justify-between items-center p-4 ">
+        <div className="border-b flex justify-between items-center p-4 dark:border-gray-800 dark:text-gray-100">
           <Logo />
           <HamburgerMenu toogleSidebar={toogleSidebar}>
             <IoClose size={24} />
           </HamburgerMenu>
         </div>
-        <div className="border-b p-4">
+        <div className="border-b p-4 dark:border-gray-800">
           <NavLinks />
         </div>
         <ThemeIcons />

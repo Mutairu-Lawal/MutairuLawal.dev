@@ -25,7 +25,7 @@ export default function MobileNavBar({
         <ThemeIcons />
         <CvButton />
       </div>
-      <div className="absolute left-0 top-0 overlay w-full h-screen bg-[rgba(231,231,233,0.50)] backdrop-blur-[5px]"></div>
+      <div className="z-[188] absolute left-0 top-0 overlay w-full h-screen bg-[rgba(231,231,233,0.50)] backdrop-blur-[5px]"></div>
     </div>
   );
 }

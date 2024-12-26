@@ -1,0 +1,41 @@
+import myPhoto from '../assets/images/Me.jpg';
+import SocailMediaLinks from './socailMediaLinks';
+
+export default function Hero() {
+  return (
+    <section className="pt-20 pb-10 space-y-10 md:space-y-0 px-4  dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 min-h-screen">
+      <div className="hero-image flex place-content-center mx-auto lg:mx-0">
+        <div className="bg-gray-200 dark:bg-gray-800 px-4 sm:px-8 md:px-4 md:pl-0">
+          <div className="w-[280px] h-[320px]">
+            <img
+              src={myPhoto}
+              alt="my photo"
+              className="w-full h-full object-cover relative bottom-10 border-white dark:border-gray-950 border-8 lg:right-9"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="hero-context space-y-4">
+        <h1 className="text-gray-900 text-4xl font-semibold sm:text-5xl sm:leading-[48px] sm:font-bold lg:text-6xl lg:leading-[62px] dark:text-gray-100">
+          Hi, I'm Mutairu <span>👋</span>
+        </h1>
+        <p className="text-gray-900 text-base sm:text-lg sm:leading-7 lg:text-xl lg:leading-8 dark:text-gray-100">
+          Welcome to my web corner! I am a skilled and creative Frontend
+          Developer with a passion for designing and building beautiful,
+          responsive, user-friendly, and interactive websites. Here, you’ll
+          discover projects I’ve worked on and gain insight into who I am, both
+          as a professional and as an individual.
+        </p>
+
+        <div className="flex items-center gap-2">
+          <div className="circle w-3 h-3 bg-emerald-500 rounded-full"></div>
+          <p className="text-gray-900 text-base dark:text-gray-100">
+            Available for new projects
+          </p>
+        </div>
+
+        <SocailMediaLinks />
+      </div>
+    </section>
+  );
+}

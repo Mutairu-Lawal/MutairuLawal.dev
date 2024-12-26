@@ -14,7 +14,7 @@ export default function Header() {
       <nav className="flex justify-between p-4 items-center border-b lg:px-[70px] bg-[rgba(255,255,255,0.5)] backdrop-blur-[10px] dark:bg-gray-950 dark:text-white">
         <Logo />
         {/* links */}
-        <div className="hidden lg:flex items-center ">
+        <div className="hidden md:flex items-center ">
           <NavLinks />
           <ThemeIcons />
           <CvButton />

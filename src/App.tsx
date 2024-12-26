@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { ThemeContext } from './contextApi/themeContext';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 
 function App() {
   const { darkMode } = useContext(ThemeContext);
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Hero />
         <AboutMe />
+        <Skills />
       </div>
     </>
   );

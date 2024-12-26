@@ -1,11 +1,10 @@
 import myPhoto2 from '../assets/images/main-pic.jpg';
+import SectionHeading from './SectionHeading';
 
 export default function AboutMe() {
   return (
     <section className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
-      <h1 className="bg-gray-200 px-5 py-1 w-fit mx-auto rounded-xl text-gray-600 text-[14px] font-medium leading-5 mb-20 dark:bg-gray-800 dark:text-gray-300">
-        About me
-      </h1>
+      <SectionHeading title="About me" className="mb-20" />
       <div className="md:grid md:grid-cols-2 md:justify-between md:items-center md:gap-10 lg:gap-20">
         <div className="hero-image flex place-content-center mx-auto lg:mx-0 md:place-content-start">
           <div className="bg-gray-200 dark:bg-gray-800 px-4 sm:px-8">

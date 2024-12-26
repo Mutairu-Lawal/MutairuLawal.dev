@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import { IoClose } from 'react-icons/io5';
 import Logo from './Logo';
 import NavLinks from './NavLinks';
@@ -10,6 +12,14 @@ export default function MobileNavBar({
 }: {
   toogleSidebar: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
+  useEffect(() => {
+    document.body.classList.add('body-no-scroll');
+
+    return () => {
+      document.body.classList.remove('body-no-scroll');
+    };
+  }, []);
+
   return (
     <div className="mobile-nav-bar">
       <div className="bg-white border-l fixed w-[calc(100%-20%)] sm:w-1/2 h-screen top-0 right-0 lg:hidden dark:bg-gray-950 z-[200] dark:border-l-0">

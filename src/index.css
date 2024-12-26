@@ -11,3 +11,7 @@ body {
 .body-no-scroll {
   overflow: hidden;
 }
+
+section {
+  @apply px-4 py-20 lg:px-[70px];
+}

@@ -11,7 +11,7 @@ export default function Header() {
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
   return (
     <>
-      <nav className="flex justify-between p-4 items-center border-b lg:px-[70px] bg-[rgba(255,255,255,0.5)] backdrop-blur-[10px] dark:bg-gray-950 dark:text-white">
+      <nav className="fixed top-0 w-full flex justify-between p-4 items-center border-b  lg:px-[70px] bg-[rgba(255,255,255,0.5)] backdrop-blur-[10px] dark:bg-gray-950 dark:text-white z-[100] md:border-b-0">
         <Logo />
         {/* links */}
         <div className="hidden md:flex items-center ">

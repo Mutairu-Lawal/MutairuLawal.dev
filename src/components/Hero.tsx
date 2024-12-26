@@ -3,7 +3,7 @@ import SocailMediaLinks from './socailMediaLinks';
 
 export default function Hero() {
   return (
-    <section className="pt-20 pb-10 space-y-10 md:space-y-0 px-4  dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 min-h-screen">
+    <section className="pt-40 pb-10 space-y-10 md:space-y-0 px-4 dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 lg:pt-52 md:pb-20">
       <div className="hero-image flex place-content-center mx-auto lg:mx-0">
         <div className="bg-gray-200 dark:bg-gray-800 px-4 sm:px-8 md:px-4 md:pl-0">
           <div className="w-[280px] h-[320px]">

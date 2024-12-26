@@ -12,7 +12,7 @@ export default function MobileNavBar({
 }) {
   return (
     <div className="mobile-nav-bar">
-      <div className="bg-white border-l absolute w-[calc(100%-20%)] sm:w-1/2 h-screen top-0 right-0 lg:hidden dark:bg-gray-950 z-[99999] dark:border-l-0">
+      <div className="bg-white border-l fixed w-[calc(100%-20%)] sm:w-1/2 h-screen top-0 right-0 lg:hidden dark:bg-gray-950 z-[200] dark:border-l-0">
         <div className="border-b flex justify-between items-center p-4 dark:border-gray-800 dark:text-gray-100">
           <Logo />
           <HamburgerMenu toogleSidebar={toogleSidebar}>
@@ -25,7 +25,7 @@ export default function MobileNavBar({
         <ThemeIcons />
         <CvButton />
       </div>
-      <div className="z-[188] absolute left-0 top-0 overlay w-full h-screen bg-[rgba(231,231,233,0.50)] backdrop-blur-[5px]"></div>
+      <div className="z-[108] fixed left-0 top-0 overlay w-full h-screen bg-[rgba(231,231,233,0.50)] backdrop-blur-[5px]"></div>
     </div>
   );
 }

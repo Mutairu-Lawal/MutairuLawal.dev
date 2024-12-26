@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Works from './components/Works';
+import Footer from './components/Footer';
 
 function App() {
   const { darkMode } = useContext(ThemeContext);
@@ -20,6 +21,7 @@ function App() {
         <Skills />
         <Experience />
         <Works />
+        <Footer />
       </div>
     </>
   );

@@ -9,7 +9,7 @@ export default function Works() {
         title="works"
         subtitle="Some of the noteworthy projects I have built:"
       />
-      <div className="projects">
+      <div className="projects mt-10">
         <div className="card shadow-md rounded-xl  dark:bg-gray-800 overflow-hidden grid md:grid-cols-2 ">
           <div className="project-img p-8 lg:p-10 bg-gray-100 flex flex-1 justify-center items-center dark:bg-gray-900">
             <div className="w-ful h-[300px] overflow-hidden rounded-xl hover:scale-105 duration-1000 ease-in-out cursor-pointer">

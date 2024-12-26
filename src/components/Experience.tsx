@@ -7,7 +7,7 @@ export default function Experience() {
         title="Experience"
         subtitle="Here is a quick summary of my most recent experiences:"
       />
-      <div className="cards grid justify-center">
+      <div className="cards grid justify-center mt-10">
         <div className="card shadow-md p-8 bg-white rounded-xl space-y-2 md:space-y-0 max-w-[900px] md:grid md:grid-cols-[200px_1fr_200px] md:items-start md:justify-start dark:bg-gray-800">
           <div className="company-logo">
             <h1 className="font-extrabold text-2xl">KODE HAUZ</h1>

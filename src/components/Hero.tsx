@@ -1,5 +1,5 @@
 import myPhoto from '../assets/images/Me.jpg';
-import SocailMediaLinks from './socailMediaLinks';
+import SocailMediaLinks from './SocialMediaLinks';
 
 export default function Hero() {
   return (

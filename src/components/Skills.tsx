@@ -9,7 +9,7 @@ export default function Skills() {
         subtitle="The skills, tools and technologies I am really good at:"
       />
 
-      <div className="grid grid-cols-3 gap-4 md:grid-cols-8">
+      <div className="grid grid-cols-3 gap-4 md:grid-cols-8 mt-10">
         {skills.map((skill) => (
           <div
             key={skill.id}

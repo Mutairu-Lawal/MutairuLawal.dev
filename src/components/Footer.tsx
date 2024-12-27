@@ -5,6 +5,17 @@ import { LuPhone } from 'react-icons/lu';
 import SocailMediaLinks from './SocialMediaLinks';
 
 export default function Footer() {
+  const copyToClipboard = (text: string) => {
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        // Optional: Add a toast/notification here to show success
+        console.log('Copied to clipboard');
+      })
+      .catch((err) => {
+        console.error('Failed to copy:', err);
+      });
+  };
   return (
     <section className="alt-bg pb-5">
       <div className="container mx-auto text-center *:">
@@ -18,7 +29,12 @@ export default function Footer() {
               <MdOutlineMailOutline size={24} />
             </div>
             <h2>lawalmuktair@gmail.com</h2>
-            <div className="links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg dark:hover:bg-gray-700 dark:text-gray-100 p-2">
+            <div
+              onClick={() => {
+                copyToClipboard('lawalmuktair@gmail.com');
+              }}
+              className="links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg dark:hover:bg-gray-700 dark:text-gray-100 p-2"
+            >
               <IoCopyOutline />
             </div>
           </div>
@@ -28,7 +44,12 @@ export default function Footer() {
               <LuPhone />
             </div>
             <h2>+234 70-3768-6956</h2>
-            <div className="links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg dark:hover:bg-gray-700 dark:text-gray-100 p-2">
+            <div
+              onClick={() => {
+                copyToClipboard(`+234 70-3768-6956`);
+              }}
+              className="links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg dark:hover:bg-gray-700 dark:text-gray-100 p-2"
+            >
               <IoCopyOutline />
             </div>
           </div>

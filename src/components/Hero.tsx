@@ -1,5 +1,6 @@
 import myPhoto from '../assets/images/Me.jpg';
 import SocailMediaLinks from './SocialMediaLinks';
+import { SlLocationPin } from 'react-icons/sl';
 
 export default function Hero() {
   return (
@@ -26,6 +27,13 @@ export default function Hero() {
           discover projects I’ve worked on and gain insight into who I am, both
           as a professional and as an individual.
         </p>
+
+        <div className="flex items-center gap-2">
+          <SlLocationPin />
+          <p className="text-gray-900 text-base dark:text-gray-100">
+            Lagos, Nigeria
+          </p>
+        </div>
 
         <div className="flex items-center gap-2">
           <div className="circle w-3 h-3 bg-emerald-500 rounded-full"></div>

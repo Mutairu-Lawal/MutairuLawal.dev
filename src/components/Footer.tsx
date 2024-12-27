@@ -25,9 +25,12 @@ export default function Footer() {
         />
         <div className="grid place-content-center">
           <div className="flex items-center gap-3 text-lg md:text-3xl font-semibold mx-auto my-2">
-            <div className="icon cursor-pointer">
-              <MdOutlineMailOutline size={24} />
-            </div>
+            <a href="mailto:lawalmuktair@gmail.com">
+              <div className="icon cursor-pointer">
+                <MdOutlineMailOutline size={24} />
+              </div>
+            </a>
+
             <h2>lawalmuktair@gmail.com</h2>
             <div
               onClick={() => {
@@ -40,9 +43,12 @@ export default function Footer() {
           </div>
           {/*  */}
           <div className="flex items-center gap-3 text-lg md:text-3xl font-semibold mx-auto my-2">
-            <div className="icon cursor-pointer">
-              <LuPhone />
-            </div>
+            <a href="tel:+2347037686956">
+              <div className="icon cursor-pointer">
+                <LuPhone />
+              </div>
+            </a>
+
             <h2>+234 70-3768-6956</h2>
             <div
               onClick={() => {

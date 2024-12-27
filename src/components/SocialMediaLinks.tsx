@@ -16,7 +16,7 @@ export default function SocailMediaLinks({
     {
       id: 2,
       icon: <FaXTwitter />,
-      url: '',
+      url: '#',
     },
     {
       id: 3,
@@ -27,11 +27,13 @@ export default function SocailMediaLinks({
   return (
     <div className="flex gap-2">
       {iconsArray.map((icon) => (
-        <div
-          className={`links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg  dark:text-gray-100 p-2 ${className}`}
-        >
-          {icon.icon}
-        </div>
+        <a href={icon.url} target="_blank" key={icon.id}>
+          <div
+            className={`links-icons hover:cursor-pointer text-2xl hover:bg-gray-100 rounded-lg  dark:text-gray-100 p-2 ${className}`}
+          >
+            {icon.icon}
+          </div>
+        </a>
       ))}
     </div>
   );

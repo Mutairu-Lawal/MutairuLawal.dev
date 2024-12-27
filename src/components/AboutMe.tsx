@@ -3,7 +3,10 @@ import SectionHeading from './SectionHeading';
 
 export default function AboutMe() {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
+    <section
+      id="about"
+      className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100"
+    >
       <SectionHeading title="About me" className="mb-20" />
       <div
         data-aos="flip-left"

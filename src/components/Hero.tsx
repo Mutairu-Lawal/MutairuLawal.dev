@@ -5,6 +5,7 @@ import { SlLocationPin } from 'react-icons/sl';
 export default function Hero() {
   return (
     <section
+      id="home"
       data-aos="fade-down"
       data-aos-easing="linear"
       className="pt-40 pb-10 space-y-10 md:space-y-0 px-4 dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 lg:pt-52 md:pb-20"

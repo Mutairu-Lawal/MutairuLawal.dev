@@ -4,7 +4,7 @@ import project from '../assets/project-img/moniepoint.jpg';
 
 export default function Works() {
   return (
-    <section>
+    <section id="work">
       <SectionHeading
         title="works"
         subtitle="Some of the noteworthy projects I have built:"

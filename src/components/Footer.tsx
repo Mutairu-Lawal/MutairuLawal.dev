@@ -17,7 +17,7 @@ export default function Footer() {
       });
   };
   return (
-    <section className="alt-bg pb-5">
+    <section id="contact" className="alt-bg pb-5">
       <div className="container mx-auto text-center *:">
         <SectionHeading
           title="Get in touch"

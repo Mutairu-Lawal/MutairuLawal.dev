@@ -1,6 +1,6 @@
 // import viteLogo from '/vite.svg';
 
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import Header from './components/Header';
 import { ThemeContext } from './contextApi/themeContext';
 import Hero from './components/Hero';
@@ -10,8 +10,16 @@ import Experience from './components/Experience';
 import Works from './components/Works';
 import Footer from './components/Footer';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 function App() {
   const { darkMode } = useContext(ThemeContext);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className={`${darkMode && 'dark'}`}>

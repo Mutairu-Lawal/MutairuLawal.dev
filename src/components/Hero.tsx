@@ -4,7 +4,11 @@ import { SlLocationPin } from 'react-icons/sl';
 
 export default function Hero() {
   return (
-    <section className="pt-40 pb-10 space-y-10 md:space-y-0 px-4 dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 lg:pt-52 md:pb-20">
+    <section
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      className="pt-40 pb-10 space-y-10 md:space-y-0 px-4 dark:bg-gray-950 lg:px-[70px] md:gap-5 md:flex md:flex-row-reverse md:justify-center md:items-center lg:gap-20 lg:pt-52 md:pb-20"
+    >
       <div className="hero-image flex place-content-center mx-auto lg:mx-0">
         <div className="bg-gray-200 dark:bg-gray-800 px-4 sm:px-8 md:px-4 md:pl-0">
           <div className="w-[280px] h-[320px]">

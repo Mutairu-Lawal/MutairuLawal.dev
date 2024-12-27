@@ -5,7 +5,12 @@ export default function AboutMe() {
   return (
     <section className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
       <SectionHeading title="About me" className="mb-20" />
-      <div className="md:grid md:grid-cols-2 md:justify-between md:items-center md:gap-10 lg:gap-20">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200"
+        className="md:grid md:grid-cols-2 md:justify-between md:items-center md:gap-10 lg:gap-20"
+      >
         <div className="hero-image flex place-content-center mx-auto lg:mx-0 md:place-content-start">
           <div className="bg-gray-200 dark:bg-gray-800 px-4 sm:px-8">
             <div className="w-[280px] h-[320px] lg:w-[400px] lg:h-[480px]">

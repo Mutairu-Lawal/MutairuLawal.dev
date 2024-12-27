@@ -3,7 +3,10 @@ import SectionHeading from './SectionHeading';
 
 export default function AboutMe() {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
+    <section
+      id="about"
+      className="bg-gray-50 dark:bg-gray-900 dark:text-gray-100"
+    >
       <SectionHeading title="About me" className="mb-20" />
       <div className="md:grid md:grid-cols-2 md:justify-between md:items-center md:gap-10 lg:gap-20">
         <div className="hero-image flex place-content-center mx-auto lg:mx-0 md:place-content-start">

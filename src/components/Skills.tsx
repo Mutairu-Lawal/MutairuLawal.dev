@@ -13,13 +13,13 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="skill hover:cursor-pointer flex flex-col items-center justify-between gap-2"
+            className="skill flex flex-col items-center justify-between gap-2"
           >
             <div className="w-[64px] h-[64px] flex hover:scale-125 transition-all duration-300 ease-in-out">
               <img
                 src={skill.imageUrl}
                 alt={`${skill.name} icon`}
-                className={`object-contain ${
+                className={`hover:cursor-pointer object-contain ${
                   skill.name === 'Next'
                     ? 'dark:bg-white rounded-full'
                     : skill.name === 'Jquery'

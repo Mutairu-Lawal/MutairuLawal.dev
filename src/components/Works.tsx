@@ -4,8 +4,11 @@ import { projects as works } from '../data/projects';
 
 export default function Works() {
   const btns = (arryOfLang: string[]) => {
-    return arryOfLang.map((lang) => (
-      <p className="text-sm font-medium px-5 py-1 bg-gray-200 text-gray-600 max-w-max rounded-full dark:bg-gray-400 dark:text-gray-200">
+    return arryOfLang.map((lang, i) => (
+      <p
+        key={i}
+        className="text-sm font-medium px-5 py-1 bg-gray-200 text-gray-600 max-w-max rounded-full dark:bg-gray-400 dark:text-gray-200"
+      >
         {lang}
       </p>
     ));
@@ -22,9 +25,16 @@ export default function Works() {
         data-aos-duration="1000"
         className="projects mt-10 space-y-5"
       >
-        {works.map((work) => (
-          <div className="card shadow-md rounded-xl  dark:bg-gray-800 overflow-hidden grid md:grid-cols-2 ">
-            <div className="project-img p-8 lg:p-10 bg-gray-100 flex flex-1 justify-center items-center dark:bg-gray-900">
+        {works.map((work, index) => (
+          <div
+            key={work.id}
+            className="card shadow-md rounded-xl  dark:bg-gray-800 overflow-hidden grid md:grid-cols-2"
+          >
+            <div
+              className={`project-img p-8 lg:p-10 bg-gray-100 flex flex-1 justify-center items-center dark:bg-gray-900 ${
+                index % 2 !== 0 && 'md:order-1'
+              }`}
+            >
               <div className="w-ful h-[300px] overflow-hidden rounded-xl hover:scale-105 duration-1000 ease-in-out cursor-pointer">
                 <a href={work.link} target="_blank">
                   <img

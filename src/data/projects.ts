@@ -9,7 +9,7 @@ import shopNow from '../assets/project-img/shopNow.png';
 
 export const projects = [
   {
-    id: 7,
+    id: 8,
     title: 'ShopNow',
     description: `e-commerce website that allows users to browse and purchase products online. The website features a user-friendly interface, allowing users to easily navigate through the website and view products. The website also includes a shopping cart feature, allowing users to add and remove items from their cart. The website also includes a checkout process, allowing users to securely enter their payment information and complete their purchase.`,
     imageUrl: shopNow,

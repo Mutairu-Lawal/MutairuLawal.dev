@@ -20,13 +20,11 @@ export default function Works() {
         title="works"
         subtitle="Some of the noteworthy projects I have built:"
       />
-      <div
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        className="projects mt-10 space-y-5"
-      >
+      <div className="projects mt-10 space-y-5">
         {works.map((work, index) => (
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
             key={work.id}
             className="card shadow-md rounded-xl  dark:bg-gray-800 overflow-hidden grid md:grid-cols-2"
           >

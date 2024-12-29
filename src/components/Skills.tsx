@@ -12,7 +12,7 @@ export default function Skills() {
       <div
         data-aos="flip-right"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="1100"
         className="grid grid-cols-3 gap-4 md:grid-cols-8 mt-10"
       >
         {skills.map((skill) => (

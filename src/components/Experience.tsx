@@ -12,7 +12,7 @@ export default function Experience() {
           <div className="company-logo">
             <h1 className="font-extrabold text-2xl">KODE HAUZ</h1>
           </div>
-          <h3 className="years text-gray-500 text-base font-normal order-3 md:text-end dark:text-gray-100">
+          <h3 className="years text-gray-500 text-base font-normal md:order-1 md:text-end dark:text-gray-100">
             Oct 2021 - Present
           </h3>
           <div className="work-details space-y-2">

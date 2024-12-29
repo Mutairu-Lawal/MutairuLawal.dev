@@ -16,7 +16,7 @@ export default function SocailMediaLinks({
     {
       id: 2,
       icon: <FaXTwitter />,
-      url: '#',
+      url: 'https://twitter.com/Amdrealmtlaw',
     },
     {
       id: 3,

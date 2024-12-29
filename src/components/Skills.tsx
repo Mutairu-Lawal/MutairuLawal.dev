@@ -13,23 +13,23 @@ export default function Skills() {
         data-aos="flip-right"
         data-aos-easing="linear"
         data-aos-duration="1100"
-        className="grid grid-cols-3 gap-4 md:grid-cols-8 mt-10"
+        className="grid grid-cols-3 gap-4 md:grid-cols-7 mt-10"
       >
         {skills.map((skill) => (
           <div
             key={skill.id}
             className="skill flex flex-col items-center justify-between gap-2"
           >
-            <div className="flex hover:scale-125 transition-all duration-300 ease-in-out">
+            <div className="flex md:hover:scale-125 transition-all duration-300 ease-in-out h-full">
               <img
                 src={skill.imageUrl}
                 alt={`${skill.name} icon`}
                 loading="lazy"
                 width={64}
                 height={64}
-                className={`hover:cursor-pointer object-contain ${
+                className={`md:hover:cursor-pointer object-contain ${
                   skill.name === 'Next'
-                    ? 'dark:bg-white rounded-full'
+                    ? 'dark:bg-white w-[64px] h-[64px] rounded-full'
                     : skill.name === 'Jquery'
                     ? 'dark:bg-white rounded-full'
                     : ''

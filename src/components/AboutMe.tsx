@@ -1,4 +1,4 @@
-import myPhoto2 from '../assets/images/main-pic.jpg';
+import myPhoto2 from '../assets/images/main-pic.webp';
 import SectionHeading from './SectionHeading';
 
 export default function AboutMe() {

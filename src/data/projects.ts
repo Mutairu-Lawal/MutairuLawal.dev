@@ -1,11 +1,11 @@
 import moniepointLoginPage from '../assets/project-img/moniepoint.jpg';
 import rockPaperScissors from '../assets/project-img/rock-paper-scissors.jpeg';
-import BrainWave from '../assets/project-img/BrainWave_.png';
+import BrainWave from '../assets/project-img/BrainWave_.webp';
 import pigGame from '../assets/project-img/pig_game.png';
-import modrino from '../assets/project-img/modrino.png';
-import foodbox from '../assets/project-img/foodbox.png';
-import quizFiesta from '../assets/project-img/quiz-fiesta.png';
-import shopNow from '../assets/project-img/shopNow.png';
+import modrino from '../assets/project-img/modrino.webp';
+import foodbox from '../assets/project-img/foodbox.webp';
+import quizFiesta from '../assets/project-img/quiz-fiesta.webp';
+import shopNow from '../assets/project-img/shopNow.webp';
 
 export const projects = [
   {

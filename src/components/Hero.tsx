@@ -1,4 +1,4 @@
-import myPhoto from '../assets/images/Me.jpg';
+import myPhoto from '../assets/images/Me.webp';
 import SocailMediaLinks from './SocialMediaLinks';
 import { SlLocationPin } from 'react-icons/sl';
 

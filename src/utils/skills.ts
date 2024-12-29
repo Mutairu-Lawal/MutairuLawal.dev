@@ -5,13 +5,13 @@ import Html from '../assets/icons/HTML.png';
 import css from '../assets/icons/CSS.png';
 import react from '../assets/icons/react.png';
 import next from '../assets/icons/next.png';
-import tailwind from '../assets/icons/tailwindCss.png';
+import tailwind from '../assets/icons/tailwindCss.webp';
 import bs from '../assets/icons/bootstrap.png';
 import git from '../assets/icons/git.png';
 import jsQuery from '../assets/icons/jsquery.png';
 import cypress from '../assets/icons/cypress.512x511.png';
 import playwright from '../assets/icons/playwright.png';
-import firebase from '../assets/icons/firebase.png';
+import firebase from '../assets/icons/firebase.webp';
 
 export const skills = [
   {

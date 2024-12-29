@@ -20,10 +20,13 @@ export default function Skills() {
             key={skill.id}
             className="skill flex flex-col items-center justify-between gap-2"
           >
-            <div className="w-[64px] h-[64px] flex hover:scale-125 transition-all duration-300 ease-in-out">
+            <div className="flex hover:scale-125 transition-all duration-300 ease-in-out">
               <img
                 src={skill.imageUrl}
                 alt={`${skill.name} icon`}
+                loading="lazy"
+                width={64}
+                height={64}
                 className={`hover:cursor-pointer object-contain ${
                   skill.name === 'Next'
                     ? 'dark:bg-white rounded-full'

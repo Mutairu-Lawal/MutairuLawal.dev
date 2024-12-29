@@ -10,12 +10,12 @@ export default function Experience() {
       <div data-aos="zoom-in" className="cards grid justify-center mt-10">
         <div className="card shadow-md p-8 bg-white rounded-xl space-y-2 md:space-y-0 max-w-[900px] md:grid md:grid-cols-[200px_1fr_200px] md:items-start md:justify-start dark:bg-gray-800">
           <div className="company-logo">
-            <h1 className="font-extrabold text-2xl">KODE HAUZ</h1>
+            <h1 className="font-extrabold text-2xl md:order-1">KODE HAUZ</h1>
           </div>
-          <h3 className="years text-gray-500 text-base font-normal md:order-1 md:text-end dark:text-gray-100">
+          <h3 className="years text-gray-500 text-base font-normal md:order-3 md:text-end dark:text-gray-100">
             Oct 2021 - Present
           </h3>
-          <div className="work-details space-y-2">
+          <div className="work-details space-y-2 md:order-2">
             <h2 className="position font-semibold text-lg md:text-xl">
               Jnr Frontend Developer
             </h2>

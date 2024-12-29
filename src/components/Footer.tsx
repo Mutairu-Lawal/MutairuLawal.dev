@@ -25,7 +25,7 @@ export default function Footer() {
         />
         <div className="grid place-content-center">
           <div className="flex items-center gap-3 text-lg md:text-3xl font-semibold mx-auto my-2">
-            <a href="mailto:lawalmuktair@gmail.com">
+            <a href="mailto:lawalmuktair@gmail.com" aria-label="Email">
               <div className="icon cursor-pointer">
                 <MdOutlineMailOutline size={24} />
               </div>
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
           {/*  */}
           <div className="flex items-center gap-3 text-lg md:text-3xl font-semibold mx-auto my-2">
-            <a href="tel:+2347037686956">
+            <a href="tel:+2347037686956" aria-label="Phone Number">
               <div className="icon cursor-pointer">
                 <LuPhone />
               </div>

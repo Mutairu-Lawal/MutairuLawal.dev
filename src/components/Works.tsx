@@ -34,7 +34,11 @@ export default function Works() {
               }`}
             >
               <div className="w-ful h-[300px] overflow-hidden rounded-xl hover:scale-105 duration-1000 ease-in-out cursor-pointer">
-                <a href={work.link} target="_blank">
+                <a
+                  href={work.link}
+                  target="_blank"
+                  aria-label={`${work.title} project link`}
+                >
                   <img
                     src={work.imageUrl}
                     alt={`${work.title} project image`}
@@ -61,6 +65,7 @@ export default function Works() {
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex"
+                  aria-label={`${work.title} project link`}
                 >
                   <div className="hover:cursor-pointer text-2xl hover:bg-gray-100 max-w-max rounded-lg dark:hover:bg-gray-900 dark:text-gray-100 p-2 mt-3s">
                     <BiLinkExternal />

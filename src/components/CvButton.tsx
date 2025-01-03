@@ -1,7 +1,7 @@
 export default function CvButton() {
   return (
     <a
-      href="../doc/MutairuLawalCv2.0.pdf"
+      href="/MutairuLawalCv2.0.pdf"
       download
       aria-label="click to download my CV"
     >

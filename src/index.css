@@ -35,8 +35,6 @@ section {
   }
 }
 
-/*  */
-
 .ping {
   -webkit-animation: ping 0.8s ease-in-out infinite both;
   animation: ping 0.8s ease-in-out infinite both;

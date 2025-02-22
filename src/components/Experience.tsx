@@ -13,14 +13,14 @@ export default function Experience() {
             <h1 className="font-extrabold text-2xl md:order-1">KODE HAUZ</h1>
           </div>
           <h3 className="years text-gray-500 text-base font-normal md:order-3 md:text-end dark:text-gray-100">
-            Oct 2021 - Present
+            Sept 2024 - Jan 2025
           </h3>
           <div className="work-details space-y-2 md:order-2">
             <h2 className="position font-semibold text-lg md:text-xl">
-              Jnr Frontend Developer
+              Internship
             </h2>
             <div className="list flex items-start gap-3 text-gray-500">
-              <div className="div">
+              <div>
                 <div className="circle w-2 h-2 bg-gray-900 rounded-full mt-2 dark:bg-gray-100"></div>
               </div>
               <p className="font-normal text-base dark:text-gray-100">
@@ -29,7 +29,7 @@ export default function Experience() {
               </p>
             </div>
             <div className="list flex items-start gap-3 text-gray-600">
-              <div className="div">
+              <div>
                 <div className="circle w-2 h-2 bg-gray-900 rounded-full mt-2 dark:bg-gray-100"></div>
               </div>
               <p className="font-normal text-base dark:text-gray-100">
@@ -38,7 +38,7 @@ export default function Experience() {
               </p>
             </div>
             <div className="list flex items-start gap-3 text-gray-600">
-              <div className="div">
+              <div>
                 <div className="circle w-2 h-2 bg-gray-900 rounded-full mt-2 dark:bg-gray-100"></div>
               </div>
               <p className="font-normal text-base dark:text-gray-100">
@@ -47,7 +47,7 @@ export default function Experience() {
               </p>
             </div>
             <div className="list flex items-start gap-3 text-gray-600">
-              <div className="div">
+              <div>
                 <div className="circle w-2 h-2 bg-gray-900 rounded-full mt-2 dark:bg-gray-100"></div>
               </div>
               <p className="font-normal text-base dark:text-gray-100">

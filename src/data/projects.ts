@@ -6,8 +6,17 @@ import modrino from '../assets/project-img/modrino.webp';
 import foodbox from '../assets/project-img/foodbox.webp';
 import quizFiesta from '../assets/project-img/quiz-fiesta.webp';
 import shopNow from '../assets/project-img/shopNow.webp';
+import quizWhizz from '../assets/project-img/quizzwhizz.webp';
 
 export const projects = [
+  {
+    id: 9,
+    title: 'QuizWhiz',
+    description: `An interactive quiz application that tests users' knowledge across multiple topics. Features include real-time scoring, timed questions, and a dynamic user interface that makes learning engaging and fun. The platform offers instant feedback and allows users to track their progress as they challenge themselves with various quizzes.`,
+    imageUrl: quizWhizz,
+    languages: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+    link: `https://quizzwhizz.netlify.app/`,
+  },
   {
     id: 8,
     title: 'ShopNow',

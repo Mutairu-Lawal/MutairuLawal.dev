@@ -7,12 +7,21 @@ import foodbox from '../assets/project-img/foodbox.webp';
 import quizFiesta from '../assets/project-img/quiz-fiesta.webp';
 import shopNow from '../assets/project-img/shopNow.webp';
 import quizWhizz from '../assets/project-img/quizzwhizz.webp';
+import myPiggyVestClone from '../assets/project-img/piggyVest-desktop-loginPage.png';
 
 export const projects = [
   {
+    id: 10,
+    title: 'myPiggyVestClone',
+    description: `A clone of the PiggyVest web application, a leading financial technology company in Nigeria. This clone app replicates the core features and user experience of the original website, providing users with a seamless and familiar platform for managing their finances and investments.`,
+    imageUrl: myPiggyVestClone,
+    languages: ['Typescript', 'React', 'Redux', 'Tailwind CSS'],
+    link: `https://mypiggyvestclone.netlify.app/`,
+  },
+  {
     id: 9,
     title: 'QuizWhiz',
-    description: `An interactive quiz application that tests users' knowledge across multiple topics. Features include real-time scoring, timed questions, and a dynamic user interface that makes learning engaging and fun. The platform offers instant feedback and allows users to track their progress as they challenge themselves with various quizzes.`,
+    description: `An interactive quiz application that tests users knowledge across multiple topics. Features include real-time scoring, timed questions, and a dynamic user interface that makes learning engaging and fun. The platform offers instant feedback and allows users to track their progress as they challenge themselves with various quizzes.`,
     imageUrl: quizWhizz,
     languages: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
     link: `https://quizzwhizz.netlify.app/`,

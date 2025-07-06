@@ -26,11 +26,13 @@ export default function Hero() {
           Hi, I'm Mutairu <span>👋</span>
         </h1>
         <p className="text-gray-900 text-base sm:text-lg sm:leading-7 lg:text-xl lg:leading-8 dark:text-gray-100">
-          Welcome to my web corner! I am a skilled and creative Frontend
-          Developer with a passion for designing and building beautiful,
-          responsive, user-friendly, and interactive websites. Here, you’ll
-          discover projects I’ve worked on and gain insight into who I am, both
-          as a professional and as an individual.
+          I’m a passionate Frontend & Backend Developer with hands-on experience
+          in building responsive, user-centered web applications. With strong
+          proficiency in technologies like React, Next.js, TailwindCSS, Django,
+          and REST APIs, I focus on delivering clean, scalable, and
+          high-performance solutions. Here, you’ll find a showcase of the
+          projects I’ve worked on, reflecting both my technical capabilities and
+          my commitment to user experience and code quality.
         </p>
 
         <div className="flex items-center gap-2">

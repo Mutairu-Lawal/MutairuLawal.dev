@@ -12,6 +12,8 @@ import jsQuery from '../assets/icons/jsquery.webp';
 import cypress from '../assets/icons/cypress.512x511.webp';
 import playwright from '../assets/icons/playwright.webp';
 import firebase from '../assets/icons/firebase.webp';
+import django from '../assets/icons/django.webp';
+import python from '../assets/icons/python.webp';
 
 export const skills = [
   {
@@ -23,6 +25,16 @@ export const skills = [
     id: 2,
     name: 'Typescript',
     imageUrl: ts,
+  },
+  {
+    id: 16,
+    name: 'Python',
+    imageUrl: python,
+  },
+  {
+    id: 17,
+    name: 'Django',
+    imageUrl: django,
   },
   {
     id: 3,
@@ -46,7 +58,7 @@ export const skills = [
   },
   {
     id: 7,
-    name: 'Next',
+    name: 'NextJs',
     imageUrl: next,
   },
   {

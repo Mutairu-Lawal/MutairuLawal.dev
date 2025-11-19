@@ -14,6 +14,10 @@ import playwright from '../assets/icons/playwright.webp';
 import firebase from '../assets/icons/firebase.webp';
 import django from '../assets/icons/django.webp';
 import python from '../assets/icons/python.webp';
+import fastapi from '../assets/icons/fastapi-1-removebg-preview.webp';
+import postgres from '../assets/icons/postgresql-database-logo.webp';
+import mongodb from '../assets/icons/mongo-db.webp';
+import docker from '../assets/icons/docker.webp';
 
 export const skills = [
   {
@@ -35,6 +39,11 @@ export const skills = [
     id: 17,
     name: 'Django',
     imageUrl: django,
+  },
+  {
+    id: 19,
+    name: 'Postgres',
+    imageUrl: postgres,
   },
   {
     id: 3,
@@ -95,5 +104,20 @@ export const skills = [
     id: 15,
     name: 'Firebase',
     imageUrl: firebase,
+  },
+  {
+    id: 18,
+    name: 'FastAPI',
+    imageUrl: fastapi,
+  },
+  {
+    id: 20,
+    name: 'MongoDB',
+    imageUrl: mongodb,
+  },
+  {
+    id: 21,
+    name: 'Docker',
+    imageUrl: docker,
   },
 ];

@@ -28,7 +28,7 @@ export default function Skills() {
                 width={64}
                 height={64}
                 className={`md:hover:cursor-pointer object-contain ${
-                  skill.name === 'Next'
+                  skill.name === 'NextJs'
                     ? 'dark:bg-white w-[64px] h-[64px] rounded-full'
                     : skill.name === 'Jquery'
                     ? 'dark:bg-white rounded-full'

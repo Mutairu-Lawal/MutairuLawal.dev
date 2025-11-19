@@ -29,7 +29,7 @@ export default function AboutMe() {
           <h1 className="text-2xl font-semibold md:text-3xl text-center">
             The Developer Behind the Code
           </h1>
-          <div className="text-base space-y-3 w-[80%] mx-auto">
+          <div className="text-base space-y-3 md:w-[80%] mx-auto">
             <p>
               I'm a full-stack developer who transforms complex technical
               challenges into scalable, high-performance web applications. With

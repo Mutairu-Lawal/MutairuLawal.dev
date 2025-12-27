@@ -1,4 +1,4 @@
-import myPhoto from '../assets/images/Me.webp';
+import myPhoto from '../assets/images/my-pro-pic.jpg';
 import SocailMediaLinks from './SocialMediaLinks';
 // import { SlLocationPin } from 'react-icons/sl';
 export default function Hero() {

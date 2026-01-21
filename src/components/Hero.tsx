@@ -32,8 +32,8 @@ export default function Hero() {
           deployment.
           <br />
           <br />
-          <strong>Tech Stack:</strong> React • Next.js • TailwindCSS • FastAPI •
-          Django • PostgreSQL • Docker
+          <strong>Tech Stack:</strong> React • Nodejs • Express.js • Next.js •
+          TailwindCSS • FastAPI • Django • PostgreSQL • Docker
         </p>
 
         {/* location icon removed for now */}

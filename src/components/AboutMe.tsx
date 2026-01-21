@@ -33,10 +33,11 @@ export default function AboutMe() {
             <p>
               I'm a full-stack developer who transforms complex technical
               challenges into scalable, high-performance web applications. With
-              expertise spanning React, Next.js, and FastAPI on the frontend, to
-              Django, PostgreSQL, and Docker on the backend, I specialize in
-              building end-to-end solutions that balance clean architecture with
-              exceptional user experience.
+              expertise in React, Nodejs, Express.js, Next.js, and TailwindCSS
+              on the frontend, to FastAPI, Django, PostgreSQL, MongoDB and
+              Docker on the backend, I specialize in building end-to-end
+              solutions that balance clean architecture with exceptional user
+              experience.
             </p>
             <p>
               My approach is rooted in technical precision and practical

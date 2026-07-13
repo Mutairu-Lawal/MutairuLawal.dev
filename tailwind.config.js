@@ -6,6 +6,19 @@ export default {
       fontFamily: {
         Inter: ['Inter', 'serif'],
       },
+      keyframes: {
+        marquee: {
+          from: {
+            transform: 'translate3d(0,0,0)',
+          },
+          to: {
+            transform: 'translate3d(-50%,0,0)',
+          },
+        },
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,4 @@
-import myPhoto from '../assets/images/my-pro-pic.jpg';
+import myPhoto from '../assets/images/my-pro-pic.webp';
 import SocailMediaLinks from './SocialMediaLinks';
 // import { SlLocationPin } from 'react-icons/sl';
 export default function Hero() {
@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="hero-context space-y-4">
         <h1 className="text-gray-900 text-4xl font-semibold sm:text-5xl sm:leading-[48px] sm:font-bold lg:text-6xl lg:leading-[62px] dark:text-gray-100">
-          Hi, I'm Mutairu <span className="hidden">👋</span>
+          Hi, I'm Mutairu
         </h1>
         <p className="text-gray-900 text-base sm:text-lg sm:leading-7 lg:text-xl lg:leading-8 dark:text-gray-100">
           <strong>Full-Stack Developer</strong> <br />

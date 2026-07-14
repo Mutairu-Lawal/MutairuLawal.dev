@@ -24,7 +24,7 @@ export default function SocailMediaLinks({
       id: 3,
       icon: <FaLinkedin />,
       iconName: 'linkedin',
-      url: 'https://www.linkedin.com/in/lawal-mutairu-biodun-704276111/',
+      url: 'https://www.linkedin.com/in/mutairu-biodun-lawal-704276111/',
     },
   ];
   return (
